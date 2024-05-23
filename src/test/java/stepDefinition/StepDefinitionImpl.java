@@ -31,6 +31,10 @@ public class StepDefinitionImpl extends BaseTest {
         List<WebElement> products = productCatalogue.getProductList();
         productCatalogue.addProductToCart(productName);
     }
+
+
+
+    
     @When("^Checkout (.+) and submit the order$")
     public void checkout_and_submit_the_order(String productName){
         CartPage cartPage = productCatalogue.goToCart();
