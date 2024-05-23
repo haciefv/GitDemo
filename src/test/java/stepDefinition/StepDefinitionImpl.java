@@ -56,4 +56,3 @@ public class StepDefinitionImpl extends BaseTest {
 }
 
 
-C:\Users\Haci\Desktop\MavenLesson\PomLesson.pageobjects
